@@ -1,0 +1,18 @@
+.Home{
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.Home .orange {
+    color: #FF9500;
+    font-weight: bold;
+}
+
+.Home h1,
+.Home p{
+    color: white;
+}

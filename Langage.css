@@ -1,0 +1,155 @@
+.langage {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.langage img {
+    width: 30%;
+}
+
+.langage .grid_Software {
+    margin: 3%;
+    display: grid;
+    height: 60%;
+    width: 40%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 16px;
+    background-color: #a1a1a1;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.langage .grid_Langage {
+    margin: 3%;
+    display: grid;
+    height: 60%;
+    width: 40%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+    background-color: #a1a1a1;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.item,
+.title {
+    font-family: 'M PLUS 2 Variable', sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0), 0 1px 2px rgba(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    grid-column: span 2;
+    background-color: rgb(110, 110, 110);
+    /* Couleur rose pour le titre */
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.python {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(53, 114, 165, 0.5);
+    /* Bleu Python */
+}
+
+.html5 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(227, 76, 38, 0.5);
+    /* Rouge HTML5 */
+}
+
+.css {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(38, 77, 228, 0.5);
+    /* Bleu CSS */
+}
+
+.javascript {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(247, 223, 30, 0.5);
+    /* Jaune JavaScript */
+}
+
+.markdown {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(105, 105, 105, 0.5);
+    /* Gris Markdown */
+}
+
+.cpp {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(0, 102, 204, 0.5);
+    /* Bleu foncé pour C++ */
+}
+
+/* Styles spécifiques pour chaque logiciel */
+.adobe {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(255, 99, 71, 0.5);
+    /* Rouge pour Adobe */
+}
+
+.vscode {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(0, 122, 204, 0.5);
+    /* Bleu pour Visual Studio Code */
+}
+
+.office365 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(255, 165, 0, 0.5);
+    /* Orange pour Office 365 */
+}
+
+.wordpress {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(33, 150, 243);
+    /* Bleu WordPress */
+}
+
+.arduino {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(0, 150, 136, 0.5);
+    /* Vert pour Arduino */
+}
+
+.figma {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(244, 67, 54, 0.5);
+    /* Rouge vif pour Figma */
+}
+
+.obsidian {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(75, 0, 130, 0.5);
+    /* Indigo pour Obsidian */
+}
+
+.chatgpt {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(123, 104, 238, 0.5);
+    /* Violet pour ChatGPT */
+}

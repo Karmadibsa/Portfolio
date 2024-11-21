@@ -1,0 +1,53 @@
+.Nav-Bar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    position: sticky;
+        /* Propriété clé pour un menu sticky */
+        top: 0;
+        /* Position du menu */
+        z-index: 1000;
+        /* Assure que le menu reste au-dessus des autres éléments */
+}
+
+.Nav-Bar p{
+    color: white;
+    border-radius: 10%;
+    padding: 1%;
+    border-color: 10px solid white;
+}
+
+.Logo {
+    display: flex;
+    align-content: center;
+    width: 20%;
+    height: auto;
+}
+
+.Logo img {
+    justify-content: center;
+    align-content: center;
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+}
+
+.BoutonMenu {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.Nav-Bar button {
+    justify-content: center;
+    align-content: center;
+    width: 10%;
+    height: 50%;
+}
+
